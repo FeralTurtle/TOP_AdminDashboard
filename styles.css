@@ -1,0 +1,50 @@
+:root {
+    --blue: #4da9ff;
+    --light-blue: #e6f3ff;
+    --white: #ffffff;
+    --yellow: #ffff66;
+    --orange: #ffe066;
+    --text-black: #000000;
+    --text-gray: #404040;
+}
+
+body, .page-wrapper {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    background-color: var(--light-blue);
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: .15fr 1fr;
+}
+
+.sidebar {
+    background-color: var(--blue);
+
+}
+
+header {
+    background-color: var(--white);
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 0.18fr 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects-container {
+    border: 2px solid black;
+}
+
+.extra-info {
+    border: 2px solid black;
+}
