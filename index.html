@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -13,19 +16,20 @@
     <div class="page-wrapper">
         <aside class="sidebar">
             <div class="sidebar-group-wrapper">
-                <div class="sidebar-item">Dashboard</div>
+                <div class="sidebar-item"><img src="icons/view-grid.svg" alt="grid">Dashboard</div>
                 <div class="sidebar-group">
-                    <div class="sidebar-item">Home</div>
-                    <div class="sidebar-item">Profile</div>
-                    <div class="sidebar-item">Messages</div>
-                    <div class="sidebar-item">History</div>
-                    <div class="sidebar-item">Tasks</div>
-                    <div class="sidebar-item">Communities</div>
+                    <div class="sidebar-item"><img src="icons/home.svg" alt="home">Home</div>
+                    <div class="sidebar-item"><img src="icons/smart-card-outline.svg" alt="smart-card">Profile</div>
+                    <div class="sidebar-item"><img src="icons/mode_comment_black_24dp.svg" alt="comment-block">Messages
+                    </div>
+                    <div class="sidebar-item"><img src="icons/history.svg" alt="clock">History</div>
+                    <div class="sidebar-item"><img src="icons/note-multiple.svg" alt="notes">Tasks</div>
+                    <div class="sidebar-item"><img src="icons/account-group.svg" alt="group">Communities</div>
                 </div>
                 <div class="sidebar-group">
-                    <div class="sidebar-item">Settings</div>
-                    <div class="sidebar-item">Support</div>
-                    <div class="sidebar-item">Privacy</div>
+                    <div class="sidebar-item"><img src="icons/cog-outline.svg" alt="cog">Settings</div>
+                    <div class="sidebar-item"><img src="icons/help-box.svg" alt="help-box">Support</div>
+                    <div class="sidebar-item"><img src="icons/shield-check-outline.svg" alt="shield">Privacy</div>
                 </div>
             </div>
         </aside>
@@ -33,16 +37,20 @@
             <header>
                 <div class="header-top">
                     <div class="header-top-left-container">
-                        <div>Icon</div>
-                        <div class="search-bar">Search bar</div>
+                        <img src="icons/magnify.svg" alt="magnify">
+                        <span class="search-bar"></span>
                     </div>
                     <div class="header-top-right-container">
-                        Morgan Oakley
+                        <div class="header-top-right-wrapper">
+                            <img src="icons/notification_bell.svg" alt="bell">
+                            <img src="icons/cat-icon.png" alt="cat">
+                            <span>Morgan Oakley</span>
+                        </div>
                     </div>
                 </div>
                 <div class="header-bottom">
                     <div class="header-bottom-left-container">
-                        <div>Icon</div>
+                        <img src="icons/cat-icon.png" alt="cat">
                         <div>
                             <p>Hi there,</p>
                             <p>Morgan Oakley (@morgan)</p>
@@ -57,29 +65,148 @@
             </header>
             <main>
                 <div class="projects-container">
-                    <p>Your Projects</p>
+                    <p class="main-header-text">Your Projects</p>
                     <div class="project-card-container">
-                        <div class="project-card">1</div>
-                        <div class="project-card">2</div>
-                        <div class="project-card">3</div>
-                        <div class="project-card">4</div>
-                        <div class="project-card">5</div>
-                        <div class="project-card">6</div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna..</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna. Elementum nisi quis eleifend quam adipiscing.
+                                    Posuere lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt..</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna. Elementum nisi quis eleifend quam.</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna. Elementum..</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="text-wrapper">
+                                <p>Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna.. Elementum nisi quis eleifend quam.</p>
+                            </div>
+                            <div class="project-icons-container">
+                                <div class="project-icons-wrapper">
+                                    <img src="icons/star-plus-outline.svg" alt="star">
+                                    <img src="icons/eye-plus-outline.svg" alt="eye">
+                                    <img src="icons/share-variant-outline.svg" alt="share">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="extra-info">
                     <aside class="announcements-container">
-                        <p>Announcements</p>
-                        <div class="announcement-card">1</div>
-                        <div class="announcement-card">2</div>
-                        <div class="announcement-card">3</div>
+                        <p class="main-header-text">Announcements</p>
+                        <div class="announcements-card-wrapper">
+                            <div class="announcement-card">
+                                <p>Site Maintenance</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna..</p>
+                            </div>
+                            <div class="announcement-card">
+                                <p>Community Share Day</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna..</p>
+                            </div>
+                            <div class="announcement-card">
+                                <p>Updated Privacy Policy</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna..</p>
+                            </div>
+                        </div>
                     </aside>
                     <aside class="trending-container">
-                        <p>Trending</p>
-                        <div class="trending-card">1</div>
-                        <div class="trending-card">2</div>
-                        <div class="trending-card">3</div>
-                        <div class="trending-card">4</div>
+                        <p class="main-header-text">Trending</p>
+                        <div class="trending-card-wrapper">
+                            <div class="trending-card">
+                                <img src="icons/horse-icon.png" alt="horse">
+                                <div class="trending-text-container">
+                                    <p>@tegan</p>
+                                    <p>World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/cat-icon.png" alt="cat">
+                                <div class="trending-text-container">
+                                    <p>@morgan</p>
+                                    <p>Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/spiderman-icon.png" alt="spiderman">
+                                <div class="trending-text-container">
+                                    <p>@kendall</p>
+                                    <p>Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img src="icons/penguin-icon.png" alt="penguin">
+                                <div class="trending-text-container">
+                                    <p>@alex</p>
+                                    <p>No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
                     </aside>
                 </div>
             </main>
